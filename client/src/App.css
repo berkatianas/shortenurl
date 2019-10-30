@@ -29,7 +29,7 @@
 }
 
 .App-header {
-  background: url("./img/back.jpeg") no-repeat center;
+  background: url("./img/back.jpeg") no-repeat center center/cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
