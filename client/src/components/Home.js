@@ -42,7 +42,7 @@ const Home = ({ requesturl, url: { theurl, msg } }) => {
             {theurl.shortUrl}
           </a>
         ) : (
-          msg
+          <p className="final"> {msg}</p>
         )}
       </div>
     </div>

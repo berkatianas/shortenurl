@@ -13,6 +13,7 @@
 .final {
   text-decoration: none;
   color: black;
+  font-size: 3rem;
 }
 .final:hover {
   color: black;

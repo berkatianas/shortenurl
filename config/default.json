@@ -1,4 +1,4 @@
 {
   "mongoURI": "mongodb+srv://anas:anasanas11@short-itlt7.mongodb.net/test?retryWrites=true&w=majority",
-  "baseUrl": "https://salty-spire-88117.herokuapp.com"
+  "baseUrl": "http://localhost:5000"
 }
