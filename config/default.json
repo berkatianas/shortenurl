@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://anas:anasanas11@short-itlt7.mongodb.net/test?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000"
+}

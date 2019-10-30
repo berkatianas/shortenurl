@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+.footer-name {
+  position: fixed;
+  width: 50%;
+  bottom: 10px;
+  border: 3px solid #0069d9;
+}
+.paragraphe {
+  color: black;
+}
+.final {
+  text-decoration: none;
+  color: black;
+}
+.final:hover {
+  color: black;
+}
+.btn-primary {
+  margin-top: 4rem;
+}
+.result {
+  margin-top: 4rem;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background: url("./img/back.jpeg") no-repeat center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
