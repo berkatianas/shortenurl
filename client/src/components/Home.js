@@ -38,7 +38,12 @@ const Home = ({ requesturl, url: { theurl, msg } }) => {
       </form>
       <div className="result paragraphe">
         {theurl ? (
-          <a className="final" href={theurl.shortUrl} target="_blank">
+          <a
+            className="final"
+            href={theurl.shortUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {theurl.shortUrl}
           </a>
         ) : (
@@ -57,7 +62,4 @@ const mapStateToProps = state => ({
   url: state.url
 });
 
-export default connect(
-  mapStateToProps,
-  { requesturl }
-)(Home);
+export default connect(mapStateToProps, { requesturl })(Home);
